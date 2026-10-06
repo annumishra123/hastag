@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sakshi ❤ Anu</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffe3ec;--ink:#4a1d3a;--card:#fff8fb;--pink:#ff5c8a;--sky:#bfe6ff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a1220;--ink:#ffe3ec;--card:#3a1a2e;--sky:#5b7fa0}}
+:root[data-theme="dark"]{--bg:#2a1220;--ink:#ffe3ec;--card:#3a1a2e;--sky:#5b7fa0}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:'Baloo 2',system-ui,sans-serif;display:flex;justify-content:center;align-items:center;padding:16px;overflow-x:hidden}
+.card{position:relative;width:100%;max-width:460px;background:var(--card);border-radius:28px;padding:20px 20px 28px;text-align:center;box-shadow:0 10px 30px rgba(255,92,138,.25)}
+h1{font-size:2rem;font-weight:800;margin:4px 0 0;line-height:1.1}
+h1 span{color:var(--pink)}
+p{font-size:1.1rem;margin:10px 8px 0;line-height:1.5}
+svg{width:100%;height:auto;display:block}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}
+.bob2{animation-delay:.4s}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.heart{position:absolute;bottom:-20px;font-size:20px;animation:rise 6s linear infinite;opacity:0;pointer-events:none}
+@keyframes rise{10%{opacity:.9}100%{transform:translateY(-420px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.bob,.heart{animation:none}}
+button{margin-top:16px;font:inherit;font-weight:800;background:var(--pink);color:#fff;border:0;border-radius:99px;padding:10px 24px;cursor:pointer}
+button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+#msg{min-height:3.2em}
+</style>
+</head>
+<body>
+<div class="card" id="card">
+<svg viewBox="0 0 400 300" role="img" aria-label="Cartoon of Anu and Sakshi holding hands">
+  <rect width="400" height="300" rx="20" fill="var(--sky)"/>
+  <circle cx="340" cy="50" r="28" fill="#ffe27a"/>
+  <ellipse cx="80" cy="60" rx="40" ry="14" fill="#fff"/><ellipse cx="110" cy="52" rx="28" ry="12" fill="#fff"/>
+  <rect y="248" width="400" height="52" fill="#9be08a"/>
+  <!-- big heart -->
+  <path d="M200 120c-14-22-44-4-26 18l26 22 26-22c18-22-12-40-26-18z" fill="#ff5c8a"/>
+  <!-- Anu -->
+  <g class="bob">
+    <rect x="95" y="165" width="64" height="80" rx="22" fill="#4f8cff"/>
+    <rect x="108" y="238" width="16" height="16" rx="6" fill="#33406b"/><rect x="130" y="238" width="16" height="16" rx="6" fill="#33406b"/>
+    <circle cx="127" cy="130" r="42" fill="#ffd2a8"/>
+    <path d="M85 126c0-34 24-48 44-48s42 14 42 46c-10-18-30-24-46-22-18 2-30 10-40 24z" fill="#2b1b17"/>
+    <circle cx="113" cy="134" r="5" fill="#2b1b17"/><circle cx="141" cy="134" r="5" fill="#2b1b17"/>
+    <circle cx="115" cy="132" r="1.8" fill="#fff"/><circle cx="143" cy="132" r="1.8" fill="#fff"/>
+    <path d="M115 150q12 12 24 0" stroke="#2b1b17" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="102" cy="148" r="6" fill="#ff9aa8" opacity=".7"/><circle cx="152" cy="148" r="6" fill="#ff9aa8" opacity=".7"/>
+    <path d="M155 190q22 8 38 -2" stroke="#ffd2a8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Sakshi -->
+  <g class="bob bob2">
+    <path d="M296 128c0 60 14 80 14 80h-62s14-20 14-80z" fill="#2b1b17"/>
+    <path d="M242 245c0-34 10-60 32-60s32 26 32 60z" fill="#ff7fa8"/>
+    <rect x="258" y="238" width="14" height="16" rx="6" fill="#7a3b55"/><rect x="280" y="238" width="14" height="16" rx="6" fill="#7a3b55"/>
+    <circle cx="272" cy="130" r="42" fill="#ffd2a8"/>
+    <path d="M230 128c0-36 20-52 44-52s44 16 44 52c-6-20-18-30-30-32-14 12-34 14-58 32z" fill="#2b1b17"/>
+    <circle cx="258" cy="136" r="5" fill="#2b1b17"/><circle cx="286" cy="136" r="5" fill="#2b1b17"/>
+    <circle cx="260" cy="134" r="1.8" fill="#fff"/><circle cx="288" cy="134" r="1.8" fill="#fff"/>
+    <path d="M260 152q12 12 24 0" stroke="#2b1b17" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="247" cy="150" r="6" fill="#ff9aa8" opacity=".8"/><circle cx="297" cy="150" r="6" fill="#ff9aa8" opacity=".8"/>
+    <circle cx="272" cy="104" r="3.5" fill="#e0234e"/>
+    <path d="M247 190q-22 8 -38 -2" stroke="#ffd2a8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="127" y="285" text-anchor="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="20" fill="#2a4a1e">Anu</text>
+  <text x="272" y="285" text-anchor="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="20" fill="#2a4a1e">Sakshi</text>
+</svg>
+<h1>Sakshi <span>&amp;</span> Anu</h1>
+<p id="msg">Tum meri sabse pyaari smile ho, Sakshi. ❤️</p>
+<button id="btn" type="button">Ek aur pyaar bhara message</button>
+</div>
+<script>
+var msgs=["Tum meri sabse pyaari smile ho, Sakshi. ❤️","Tumhare saath har din special lagta hai. 🌸","Tum ho toh sab kuch accha lagta hai. ✨","Anu ka favorite insaan: Sakshi. 🥰","Hamesha tumhare saath, bas tum haso. 💞"];
+var i=0,m=document.getElementById('msg');
+document.getElementById('btn').onclick=function(){i=(i+1)%msgs.length;m.textContent=msgs[i];};
+var c=document.getElementById('card');
+for(var k=0;k<8;k++){var h=document.createElement('span');h.className='heart';h.textContent='💗';h.style.left=(8+k*12)+'%';h.style.animationDelay=(k*0.8)+'s';c.appendChild(h);}
+</script>
+</body>
+</html>
